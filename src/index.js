@@ -1,3 +1,5 @@
+import styles from '../dist/main.css';
+
 const API = '7cc9ada87cfa0d90ab55617d4f99b3c5';
 
 // http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=7cc9ada87cfa0d90ab55617d4f99b3c5` For only city entered
@@ -20,12 +22,12 @@ const fetchData = (defaultLocation) => {
     .then((response) => response.json())
     .then((response) => {
       if (response.main) {
+        icon.src = `http://openweathermap.org/img/w/${response.weather[0].icon}.png`;
         celsius = Math.round(response.main.temp - 273.15);
         tempSign.innerText = 'C';
         timezone.innerText = response.name;
         temperature.innerText = celsius;
         temepratureDesc.innerText = response.weather[0].description;
-        icon.src = `http://openweathermap.org/img/w/${response.weather[0].icon}.png`;
       } else {
         tempSign.innerText = '';
         temperature.innerText = '';
@@ -74,3 +76,5 @@ inputForm.addEventListener('submit', (e) => {
   const location = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API}`;
   fetchData(location);
 });
+
+export default styles;

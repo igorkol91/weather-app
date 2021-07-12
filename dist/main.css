@@ -31,18 +31,28 @@ body {
     flex-direction: column;
 }
 
-.degree-section {
+.icon-div {
+    display: flex;
+    align-items: center;
+}
+
+.icon-img {
+    height: 20vh;
+    width: 10vw;
+}
+
+#degree-section {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.degree-section span {
+#degree-section span {
     margin: 10px;
     font-size: 30px;
 }
 
-.degree-section h2 {
+#degree-section h2 {
     font-size: 40px;
 }
 

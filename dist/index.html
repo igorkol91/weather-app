@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link type="text/css" rel="stylesheet" href="main.css">
         <title>WeatherApp</title>
     </head>
     <body>
@@ -18,14 +17,16 @@
         <div class="main-content">
             <div class="location">
                 <h1 class="location-timezone"></h1>
-                <img class="icon-img" alt="weather-icon" src="#">
+                <div class="icon-div">
+                    <img class="icon-img" alt="weather-icon" src="#">
+                    <div class="temperature-description"></div>
+                </div>
             </div>
             <div class="temperature">
                 <div id="degree-section">
                     <h2 class="temperature-degree"></h2>
                     <span></span>
                 </div>
-                <div class="temperature-description"></div>
             </div>
         </div>
     </body>

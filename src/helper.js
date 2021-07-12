@@ -19,7 +19,7 @@ const loadPage = () => {
           dom.fetchData(defaultLocation);
         });
       } else {
-        defaultLocation = `http://api.openweathermap.org/data/2.5/weather?q=London&appid=${API}`;
+        defaultLocation = `http://api.openweathermap.org/data/2.5/weather?q=Struga&appid=${API}`;
         dom.fetchData(defaultLocation);
       }
     }

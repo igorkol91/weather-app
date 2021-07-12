@@ -2,7 +2,7 @@
 
 In this project I used OpenWeatherMap.org API to get weather data for cities worldwide.
 
-[screenshot](./Screenshot_20210712_154632.png)
+![Screenshot](./Screenshot_20210712_154632.png)
 
 ## Built With
 

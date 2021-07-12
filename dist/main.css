@@ -70,6 +70,10 @@ body {
     word-wrap: nowrap;
 }
 
+.degree-section {
+    padding: 1vh;
+}
+
 form button {
     margin-left: 1vh;
     padding-left: 1vh;

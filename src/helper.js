@@ -5,7 +5,7 @@ let lon;
 let lat;
 let defaultLocation;
 const timezone = document.querySelector('.location-timezone');
-const changeTemp = document.querySelector('#degree-section');
+const changeTemp = document.querySelector('.degree-section');
 const inputForm = document.querySelector('form');
 
 const loadPage = () => {

@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/barackm/weather-app.git"
+    "url": "git+https://github.com/igorkol91/weather-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/barackm/weather-app/issues"
+    "url": "https://github.com/igorkol91/weather-app/issues"
   },
-  "homepage": "https://github.com/barackm/weather-app#readme",
+  "homepage": "https://github.com/igorkol91/weather-app#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^5.2.6",

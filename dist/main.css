@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family: 'sans-serif, Segoe UI', Tahoma, Verdana;
+    color: white;
+}
+
+.main-content {
     height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
-    font-family: 'sans-serif, Segoe UI', Tahoma, Verdana;
-    color: white;
+ 
 }
 
 .location, .temperature {
@@ -27,17 +31,51 @@ body{
     flex-direction: column;
 }
 
-.degree-section {
+.icon-div {
+    display: flex;
+    align-items: center;
+}
+
+.icon-img {
+    height: 11vh;
+}
+
+#degree-section {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.degree-section span {
+#degree-section span {
     margin: 10px;
     font-size: 30px;
 }
 
-.degree-section h2 {
+#degree-section h2 {
     font-size: 40px;
+}
+
+.input-form {
+    margin: 4vh;
+}
+
+.input-form form {
+    display: flex;
+}
+
+.city-label {
+    font-size: 3vh;
+    font-weight: bold;
+    margin-right: 1vh;
+    word-wrap: nowrap;
+}
+
+.degree-section {
+    padding: 1vh;
+}
+
+form button {
+    margin-left: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
 }

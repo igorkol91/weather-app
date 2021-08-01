@@ -9,7 +9,7 @@ In this project I used OpenWeatherMap.org API to get weather data for cities wor
 - Javascript
 - Webpack
 - Css
-
+ 
 ### Prerequisites
 
 Vscode
